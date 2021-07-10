@@ -23,6 +23,11 @@ namespace SqlKata.Compilers
         }
 
         public virtual string EngineCode { get; }
+        public virtual string ParameterPrefix
+        {
+            get { return parameterPrefix; }
+            set { parameterPrefix = value; }
+        }
 
 
         /// <summary>
